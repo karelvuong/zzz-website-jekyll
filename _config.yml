@@ -1,0 +1,12 @@
+# Site settings
+title: Karel Vuong
+email: vuongkarel@gmail.com
+description: Currently a Product Manager at Zazzle, I am a designer at heart and am a front-end engineer on the side.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://karel.ca" # the base hostname & protocol for your site
+twitter_username: karelvuong
+github_username:  karelvuong
+
+# Build settings
+permalink: pretty
+markdown: kramdown

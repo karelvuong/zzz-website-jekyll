@@ -1,0 +1,34 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        {{#link-to 'home'}}<img class="footer-image" src="/assets/images/face.jpg">{{/link-to}}
+        {{#link-to 'home' class="footer-name"}}Karel Vuong{{/link-to}}
+        <p class="footer-text">
+          {{ site.description}}
+        </p>
+        <p class="footer-text">
+          <a href="https://github.com/karelvuong/website-ember/issues">Found an issue? Let me know.</a>
+        </p>
+      </div>
+
+      <div class="col-sm-6">
+        <ul class="footer-list col-xs-6">
+          <h6 class="footer-heading">Navigation</h6>
+          <li class="footer-list-item">{{#link-to 'posts' class='footer-link'}}Posts{{/link-to}}</li>
+          <li class="footer-list-item">{{#link-to 'portfolio' class='footer-link'}}Portfolio{{/link-to}}</li>
+          <li class="footer-list-item">{{#link-to 'resume' class='footer-link'}}Resume{{/link-to}}</li>
+        </ul>
+
+        <ul class="footer-list col-xs-6">
+          <h6 class="footer-heading">Networks</h6>
+          <li class="footer-list-item"><a class="footer-link" href="https://dribbble.com/karelvuong">Dribbble</a></li>
+          <li class="footer-list-item"><a class="footer-link" href="https://github.com/{{ site.github_username }}">GitHub</a></li>
+          <li class="footer-list-item"><a class="footer-link" href="https://linkedin.com/in/karelvuong">LinkedIn</a></li>
+          <li class="footer-list-item"><a class="footer-link" href="https://quora.com/Karel-Vuong">Quora</a></li>
+          <li class="footer-list-item"><a class="footer-link" href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
